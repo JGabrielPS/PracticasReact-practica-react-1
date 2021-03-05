@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
 import "./App.css";
 
 // import Hola from "./components/Hola";
 // import Contador from "./components/Contador";
 // import Listado from "./components/Listado";
-import Temperatura from "./components/Temperatura";
+// import Temperatura from "./components/Temperatura";
+import Formulario from "./components/Formulario";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <Hola /> */}
       {/* <Contador /> */}
       {/* <Listado /> */}
-      <Temperatura />
+      {/* <Temperatura /> */}
+      <Formulario />
     </div>
   );
 }
